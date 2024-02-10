@@ -52,7 +52,7 @@ h6 {
 /*****************************************************************************/
 body {
     width: 100vw;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 a {
@@ -92,10 +92,12 @@ a {
 header {
     display: flex;
     margin-bottom: 1rem;
+    width: 100vw;
 }
 
 .hero-img {
     width: 100vw;
+    height: 75vh;
     filter: grayscale(60%);
 }
 
@@ -115,10 +117,6 @@ header {
 .mainheading {
     font-size: 6rem;
     font-weight: 400;
-}
-
-.hero-img {
-    height: 70vh
 }
 
 .info-label {
@@ -189,7 +187,8 @@ footer {
 
 h2 {
     margin: 1rem;
-    font-size: xx-large;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
 .name,
@@ -214,6 +213,64 @@ h2 {
     display: flex;
     gap: 10rem;
     padding: 1rem;
+    justify-content: center;
+}
+
+.fname {
+    grid-column-start: 1;
+    grid-row: 1;
+}
+
+.Lname {
+    grid-column-start: 2;
+    grid-row: 1;
+}
+
+.fname, .Lname, .phone, .email {
+    height: 3rem;
+    margin: 1rem;
+}
+
+.dropdown {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.message {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+}
+
+.form-items {
+    display: grid;
+}
+
+.form-map-section {
+    padding: 5rem;
+}
+
+.submit-btn {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+input[type=submit] {
+    background-color: #FFA726;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+    background-color: black;
+    color: #FFA726;
+    transition: background-color 0.7s ease;
 }
 
 .map {
