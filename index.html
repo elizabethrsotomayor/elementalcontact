@@ -17,33 +17,22 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Cafe</a></li>
                 <li><a href="#">Contact</a></li>
-                <li>
-                    Log in
-                </li>
-                <li>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                        class="w-6 h-6 icon">
-                        <path stroke-linecap="round" stroke-linejoin="round"
+                <div class="navbar-side">
+                    <ul class="side-nav">
+                        <li class="side-nav-item">
+                            <a href="#">Log in</a>
+                        </li>
+                        
+                        <li class="side-nav-item">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                            class="w-6 h-6 icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
                             d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                    </svg>
-                </li>
-                <!-- <div class="navbar-side">
-
-                    <li>
-                        Log in
+                        </svg>
                     </li>
-                    <li>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                        class="w-6 h-6">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                    </svg>
-                </li>
-            </div> -->
+                </ul>
+                </div>
         </ul>
-        <!-- <ul class="navbar-side">
-                
-        </ul> -->
     </nav>
     </header>
 
@@ -66,6 +55,26 @@
                 <span class="info-label">Address</span>
                 <span>815 N. Hudson Ave. OKC. OK</span>
             </div>
+        </section>
+
+        <section>
+            <h2>Write Us</h2>
+            <form>
+                <input type="text" id="first-name" value="First Name" class="name">
+                <input type="text" id="last-name" value="Last Name" class="name">
+                <input type="text" id="phone-number" value="Phone Number" class="phone-email">
+                <input type="email" id="email" value="Email" class="phone-email">
+                <select class="dropdown">
+                    <option>Select your subject ---></option>
+                    <option>Subject: Just wanted to say hi</option>
+                    <option>Subject: Can you donate some coffee?</option>
+                    <option>Subject: Catering</option>
+                    <option>Subject: Work with us</option>
+                </select>
+                <textarea id="message" rows="4" class="message">Message</textarea>
+                <input type="submit" id="submit" value="Send">
+            </form>
+            <img src="https://media.wired.com/photos/59269cd37034dc5f91bec0f1/master/pass/GoogleMapTA.jpg">
         </section>
     </main>
     

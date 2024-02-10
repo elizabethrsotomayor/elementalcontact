@@ -70,12 +70,22 @@ a {
 }
 
 .navbar-side {
-    margin-left: 30rem;
+    margin-left: 20rem;
+}
+
+.side-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem
+}
+
+.side-nav-item {
+    align-self: center;
 }
 
 .elemental-logo {
     width: 10rem;
-    margin-right: 1rem;
+    margin-right: 10rem;
 }
 
 header {
@@ -85,17 +95,21 @@ header {
 
 .hero-img {
     width: 100vw;
+    filter: grayscale(60%);
 }
 
 
 .heading {
     position: absolute;
     right: 12%;
-    top: 35%;
+    top: 40%;
     color: white;
     text-transform: uppercase;
 }
 
+.main-heading {
+    font-size: 10rem;
+}
 .hero-img {
     height: 70vh
 }
@@ -114,5 +128,34 @@ header {
 
 .information {
     border-left: 5px solid #FFA726;
-    padding-left: 2rem;
+    padding-left: 4rem;
+    margin-left: 7rem;
+}
+
+
+/*****************************************************************************/
+/* FORM STYLES */
+/*****************************************************************************/
+
+h2 {
+    margin: 1rem;
+    font-size: xx-large;
+}
+
+.name,
+.phone-email,
+.message {
+    color: #777777;
+}
+
+.name,
+.phone-email,
+.dropdown,
+.message {
+    font-size: 20px;
+    margin: 1rem;
+}
+
+.phone-email {
+    display: block;
 }
