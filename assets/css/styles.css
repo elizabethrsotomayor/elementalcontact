@@ -17,7 +17,8 @@ body {
     padding: 1rem 0;
     font-family: 'Arial', sans-serif;
     margin: 0;
-    width: 100%
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 img,
@@ -70,7 +71,7 @@ a {
 }
 
 .navbar-side {
-    margin-left: 20rem;
+    margin-left: 18rem;
 }
 
 .side-nav {
@@ -107,9 +108,15 @@ header {
     text-transform: uppercase;
 }
 
-.main-heading {
-    font-size: 10rem;
+.preheading, .mainheading {
+    letter-spacing: 0.1rem;
 }
+
+.mainheading {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
 .hero-img {
     height: 70vh
 }
@@ -130,6 +137,39 @@ header {
     border-left: 5px solid #FFA726;
     padding-left: 4rem;
     margin-left: 7rem;
+}
+
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/montserrat-v26-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../font/montserrat-v26-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* montserrat-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../font/montserrat-v26-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 
