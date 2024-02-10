@@ -54,10 +54,23 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 .navbar {
     list-style-type: none;
     display: flex;
     gap: 5rem;
+}
+
+.icon {
+    width: 2rem;
+}
+
+.navbar-side {
+    margin-left: 30rem;
 }
 
 .elemental-logo {
