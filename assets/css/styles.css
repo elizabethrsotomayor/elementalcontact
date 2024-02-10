@@ -1,0 +1,105 @@
+/*****************************************************************************/
+/* CSS RESET STYLES */
+/*****************************************************************************/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    padding: 1rem 0;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    width: 100%
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*****************************************************************************/
+/* GENERAL STYLES */
+/*****************************************************************************/
+body {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 5rem;
+}
+
+.elemental-logo {
+    width: 10rem;
+    margin-right: 1rem;
+}
+
+header {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.hero-img {
+    width: 100vw;
+}
+
+
+.heading {
+    position: absolute;
+    right: 12%;
+    top: 35%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.hero-img {
+    height: 70vh
+}
+
+.info-label {
+    text-transform: uppercase;
+    display: block;
+}
+
+.hours-and-address {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.information {
+    border-left: 5px solid #FFA726;
+    padding-left: 2rem;
+}
